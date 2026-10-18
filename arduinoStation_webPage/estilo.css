@@ -1,0 +1,47 @@
+.titulo {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    font-size: 70px;
+    letter-spacing: -8px;
+    text-align: center;
+    padding-top: 50px;
+    color: black;
+}
+
+.caixa1, .caixa2 {
+    width: 698px;
+    height: 52px;
+    margin: 0 auto; /* Centraliza horizontalmente */
+    border-radius: 8px;
+    font-family: 'Montserrat', sans-serif;
+    position: relative;
+}
+
+.caixa2 {
+    top: 20px;
+}
+
+.escrita1, .nivel, .escrita2, .risco {
+    position: absolute;
+}
+
+.escrita1, .escrita2 {
+    left: 15px;
+}
+
+.nivel, .risco {
+    right: 15px;
+}
+
+.logo {
+    left: 50%; /* Centraliza horizontalmente */
+    top: 360px;
+    transform: translateX(-50%); /* Centraliza exatamente no centro */
+    position: absolute;
+}
+
+body {
+    background-color: #E4EFFF;
+    margin: 0;
+    padding: 0;
+}
